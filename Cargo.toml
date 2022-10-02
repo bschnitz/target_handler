@@ -1,0 +1,20 @@
+[package]
+name = "target_handler"
+version = "0.1.1"
+edition = "2021"
+repository = "https://github.com/bschnitz/target_handler"
+description = "A derive macro to create a handler for multiple enum variants"
+authors = ["Benjamin Schnitzler"]
+license = "MIT"
+license-file = "LICENSE"
+readme = "README.md"
+keywords = ["clap", "design"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "1.0", features = ["extra-traits"]}
+quote = "1.0"
+proc-macro2 = "1.0.46"
+darling = "0.14.1"
