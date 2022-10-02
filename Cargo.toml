@@ -5,7 +5,6 @@ edition = "2021"
 repository = "https://github.com/bschnitz/target_handler"
 description = "A derive macro to create a handler for multiple enum variants"
 authors = ["Benjamin Schnitzler"]
-license = "MIT"
 license-file = "LICENSE"
 readme = "README.md"
 keywords = ["clap", "design"]
